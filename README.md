@@ -1,4 +1,4 @@
-# Ω Olympus Smart Contracts
+# ~~Ω Olympus~~ Babylon Smart Contracts
 
 
 ##  🔧 Setting up Local Development
@@ -8,10 +8,10 @@ Required:
 
 
 Local Setup Steps:
-1. git clone https://github.com/OlympusDAO/olympus-contracts.git 
-1. Install dependencies: `npm install` 
+1. git clone https://github.com/BabylonDAO/babylon-contracts.git 
+1. Install dependencies: `npm install` [This should just work right?]
     - Installs [Hardhat](https://hardhat.org/getting-started/) & [OpenZepplin](https://docs.openzeppelin.com/contracts/4.x/) dependencies
-1. Compile Solidity: `npm run compile`
+1. Compile ~~Solidity~~ Rust: `npm run compile` [TODO: How the fuck do we compile solidity in Rust?]
 1. **_TODO_**: How to do local deployments of the contracts.
 
 
@@ -22,8 +22,8 @@ Local Setup Steps:
 
 |Contract       | Addresss                                                                                                            | Notes   |
 |:-------------:|:-------------------------------------------------------------------------------------------------------------------:|-------|
-|OHM            |[0x383518188c0c6d7730d91b2c03a03c837814a899](https://etherscan.io/address/0x383518188c0c6d7730d91b2c03a03c837814a899)| Main Token Contract|
-|sOHM           |[0x31932e6e45012476ba3a3a4953cba62aee77fbbe](https://etherscan.io/address/0x31932e6e45012476ba3a3a4953cba62aee77fbbe)| Staked Ohm|
+|BBY            |[0x383518188c0c6d7730d91b2c03a03c837814a899](https://etherscan.io/address/0x383518188c0c6d7730d91b2c03a03c837814a899)| Main Token Contract|
+|sBBY           |[0x31932e6e45012476ba3a3a4953cba62aee77fbbe](https://etherscan.io/address/0x31932e6e45012476ba3a3a4953cba62aee77fbbe)| Staked Ohm|
 |Treasury       |[0x31F8Cc382c9898b273eff4e0b7626a6987C846E8](https://etherscan.io/address/0x31F8Cc382c9898b273eff4e0b7626a6987C846E8)| Olympus Treasury holds all the assets        |
 |OlympusStaking |[0xfd31c7d00ca47653c6ce64af53c1571f9c36566a](https://etherscan.io/address/0xfd31c7d00ca47653c6ce64af53c1571f9c36566a)| Main Staking contract responsible for calling rebases every 2200 blocks|
 |StakingHelper  |[0xc8c436271f9a6f10a5b80c8b8ed7d0e8f37a612d](https://etherscan.io/address/0xc8c436271f9a6f10a5b80c8b8ed7d0e8f37a612d)| Helper Contract to Stake with 0 warmup |
